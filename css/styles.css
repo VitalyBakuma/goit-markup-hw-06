@@ -319,6 +319,9 @@ span {
 }
 
 @media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
 
   .feature-title {
     text-align: left;
@@ -341,6 +344,12 @@ span {
 }
 
 @media screen and (min-width: 1158px) {
+
+  .container {
+    width: 1158px;
+  }
+
+
   .feature {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -482,6 +491,10 @@ span {
 }
 
 @media screen and (min-width: 768px) {
+
+  .container {
+    width: 768px;
+  }
   .team-list {
     display: flex;
     flex-direction: row;
@@ -489,6 +502,13 @@ span {
     gap: 64px 24px;
   }
 }
+
+@media screen and (min-width: 1158px) {
+  .container {
+    width: 1158px;
+  }
+}
+
 
 /* PORTFOLIO */
 
