@@ -282,9 +282,6 @@ span {
   gap: 72px;
 }
 
-.feature-item {
-  /* width: calc((100% - 72px) / 4); */
-}
 
 .feature-icon {
   fill: #2e2f42;
@@ -323,8 +320,6 @@ span {
 }
 
 @media screen and (min-width: 768px) {
-  .container {
-  }
 
   .feature-title {
     text-align: left;
